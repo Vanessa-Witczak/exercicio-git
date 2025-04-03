@@ -1,0 +1,7 @@
+try:
+    texto = input("Digite uma string: ")
+    if not texto.isupper():
+        raise ValueError ("A String Contém Letras Minúsculas.")
+    print("A String Contém Apenas Letras Maiúsculas.")
+except ValueError as e:
+    print(e)

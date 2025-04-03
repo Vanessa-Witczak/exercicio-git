@@ -1,0 +1,8 @@
+try:
+    numero = int(input("Digite um número inteiro: "))
+    resultado = 10/numero
+    print(f"O resultado da divisão de 10 por {numero} é: {resultado} ")
+except ZeroDivisionError:
+    print("ERRO: A divisão por 0 não é permitida")
+except ValueError:
+    print("ERRO:Insira um número inteiro válido.")

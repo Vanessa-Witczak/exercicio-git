@@ -1,0 +1,6 @@
+str1 = input("Escreva a primeira string: ")
+str2 = input("Escreva a segunda string: ")
+if len (str1) != len(str2):
+    print("As strings tem comprimentos diferentes.")
+else:
+    print("As strings tem o mesmo comprimento")
